@@ -1,7 +1,7 @@
 def personal(
         num: int
 ) -> int:
-        for i in range(1,num):
+        for i in range(1,num+1):
             if num/i == i:
                 otvet=num/i
                 print(otvet)
@@ -9,7 +9,7 @@ def personal(
             else:
                 print(f'{i} Не могу')
 
-personal(196)
+personal(1)
     
 
         
